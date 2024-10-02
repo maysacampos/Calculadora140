@@ -11,11 +11,14 @@ def dividir_dois_numeros(num1, num2):
     try:
         return num1 / num2 
     except(ZeroDivisionError):
-        return 'Erro Não é possível dividir por zero'
+        return 'Erro: Não é possível dividir por zero'
 
 def calcular_area_do_quadrado(lado):
     return lado * lado
 
-def calcular_area_dotriangulo(base, altura):
+def calcular_area_do_retangulo(base, altura):
+    return (base * altura)
+
+def calcular_area_do_triangulo(base, altura):
     return (base * altura) / 2
 
