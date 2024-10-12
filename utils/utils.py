@@ -16,3 +16,4 @@ def ler_csv(arquivo_csv):
     except Exception as fail:                             # qualquer erro n previsto
         print(f'Falha imprevista: {fail}')                # mensagem de erro q voltará do sistema
         
+        
